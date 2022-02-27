@@ -1,0 +1,27 @@
+{
+  "name": "server-multiplayer-game-2d",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "server": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Renzott/server-multiplayer-game-2d.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Renzott/server-multiplayer-game-2d/issues"
+  },
+  "homepage": "https://github.com/Renzott/server-multiplayer-game-2d#readme",
+  "dependencies": {
+    "ws": "^8.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
